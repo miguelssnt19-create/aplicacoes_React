@@ -77,6 +77,8 @@ function botao2(e){
             <a href="/">voltar</a>
         </div>
 
+        <a href="/calculadora">calculadora</a>
+
     </div>
 
 

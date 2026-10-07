@@ -7,6 +7,7 @@ import Cadastro from './pages/cadastro/index.jsx';
 import Contador from './pages/contador/index.jsx';
 import Descricao from './pages/descricao/index.jsx';
 import Textos from './pages/textos/index.jsx';
+import Calculador from './pages/calculadora/index.jsx';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 export default function Router(){
@@ -20,6 +21,7 @@ export default function Router(){
         <Route path="/contador" element={<Contador />} />
         <Route path='/descricao' element={<Descricao />} />
         <Route path='/textos' element={<Textos />} />
+        <Route path='/calculadora' element={<Calculador />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
 </BrowserRouter>
