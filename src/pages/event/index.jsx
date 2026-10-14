@@ -1,5 +1,5 @@
 import './index.scss';
-
+import Cabecalho from '../../component/cabecalho';
 
 export default function Evento(){
     
@@ -12,7 +12,10 @@ export default function Evento(){
     }
     
     return(
-    <div className='tudo'>
+    <div className='tudo-event'>
+
+        <Cabecalho titulo="Evento" />
+
         <div className='cubico'>
             <h1>titulo generico</h1>
             <p>texto que eu coloquei aqui para ficar como de enche linguiça entao so ignore este texto se voce leu este texto até aqui voce realmente esta curioso com oque tem no final mais infelizmente nao há nada no final deste mini texto bem pequeno e voce so perdeu tempo da sua vida lendo este pequenininho texto por causa da sua curiosidade imensa é como aquele ditado a curiosidade matou o gato</p>
@@ -53,8 +56,7 @@ export default function Evento(){
         </div>
 
         <button>clica aqui</button>
-        <a href="/contato">voltar</a>
-        < a href = '/contador'>contador</a>
+
         </div>
     </div>
     );

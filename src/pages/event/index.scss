@@ -1,19 +1,23 @@
 
-.tudo{
+.tudo-event{
     display: flex;
-    justify-content: center;
-    background-color: darkcyan;
+    flex-direction: column;
+    
     a{
         text-align: center;
+        text-decoration: none;
+        color: white;
     }
 }
 
 
 .cubico{
     background-color: gray;
-    width: 500px;
+    
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .texto{

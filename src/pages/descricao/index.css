@@ -11,4 +11,10 @@ align-items: center;
  width: 600px;
 }
 
+ a{
+        text-align: center;
+        text-decoration: none;
+        color: white;
+    }
+
 }

@@ -1,6 +1,6 @@
 import './index.css';
 import { useState } from 'react';
-
+import Cabecalho from '../../component/cabecalho';
 
 export default function Calculador(){
     
@@ -42,6 +42,9 @@ export default function Calculador(){
 
     return(
         <div className='pag_calculador'>
+
+        <Cabecalho titulo="Calculadora" />
+
 
             <h1>calculadora de soma</h1>
 

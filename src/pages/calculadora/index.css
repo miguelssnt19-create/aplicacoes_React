@@ -1,6 +1,12 @@
 .pag_calculador{
     text-align: center;
     background-color: darkcyan;
+
+     a{
+        text-align: center;
+        text-decoration: none;
+        color: white;
+    }
 }
 
 
@@ -62,6 +68,9 @@
     display: flex;
     gap: 10px;
 }
+
+
+
 
 }
 

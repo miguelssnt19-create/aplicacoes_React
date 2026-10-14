@@ -1,6 +1,6 @@
 import './index.css';
 import { useState } from 'react';
-
+import Cabecalho from '../../component/cabecalho';
 
 export default function Contador(){
     const [numero1, setNumero1] = useState('');
@@ -33,6 +33,9 @@ export default function Contador(){
 
     return(
         <div className='tudoC'>
+
+            <Cabecalho titulo="Contador" />
+
             <h1>Contador : {numero}</h1>
                 <button className='botao1' onClick={contador}>Aumentar</button>
                 <br/>
@@ -52,11 +55,6 @@ export default function Contador(){
 
             <br />
 
-            <div>
-                <a href="/evento"> voltar</a>
-                <br />
-                <a href="/descricao">Descrição</a>
-            </div>
 
         </div>
 

@@ -1,5 +1,5 @@
 import './index.scss';
-
+import Cabecalho from '../../component/cabecalho';
 export default function Cadastro() {
   
   function Nome (e){
@@ -26,7 +26,12 @@ export default function Cadastro() {
 
     return (
 
-  <div className='tudo'>
+
+  <div className='tudo-cadastro'>
+
+      <Cabecalho titulo="Cadastro de Funcionário" />
+
+
     <div className='cubo'>
       <h1>Cadastro de funcionario</h1>
         
@@ -68,6 +73,8 @@ export default function Cadastro() {
 
 
         </div>
+      
+
       </div>
   );
 }

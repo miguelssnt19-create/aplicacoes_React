@@ -1,8 +1,18 @@
-.tudo{
+.tudo-cadastro{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background-color: darkolivegreen;
+    gap: 10px;
+
+     a{
+        text-align: center;
+        text-decoration: none;
+        color: white;
+    }
+
 }
 
 

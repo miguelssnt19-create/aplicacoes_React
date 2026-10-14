@@ -1,6 +1,6 @@
 import './index.css';
 import { useState } from 'react';
-
+import Cabecalho from '../../component/cabecalho';
 
 export default function Textos(){
  const [texto1, setTexto] = useState('eu amo jogos');
@@ -52,6 +52,9 @@ function botao2(e){
 
     return(
     <div className='text_page' style={{ backgroundColor: cor }}>
+
+        <Cabecalho titulo="Textos" />
+
         <h1>{texto1}</h1>
         <input type="text" value={texto1} onChange={mudar} />
         
@@ -72,12 +75,7 @@ function botao2(e){
             <input type='checkbox'onChange={botao2} />
 </div>
 
-        <div>
-            
-            <a href="/">voltar</a>
-        </div>
 
-        <a href="/calculadora">calculadora</a>
 
     </div>
 
