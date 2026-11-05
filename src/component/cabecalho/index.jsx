@@ -18,6 +18,9 @@ export default function Cabecalho(props){
             <a href="/textos">Textos</a>
             <a href="/calculadora">Calculadora</a>
             <a href="/cadastro">Cadastro</a>
+            <a href="/chamadaapi">Conexão com API</a>
+            <a href="/ingresso">Ingresso</a>
+            <a href="/extra">unidade</a>
 
 
         </div>

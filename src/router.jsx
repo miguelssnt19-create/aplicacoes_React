@@ -8,6 +8,9 @@ import Contador from './pages/contador/index.jsx';
 import Descricao from './pages/descricao/index.jsx';
 import Textos from './pages/textos/index.jsx';
 import Calculador from './pages/calculadora/index.jsx';
+import ChamadaApi from './pages/conexaoApi/index.jsx';
+import Ingresso from './pages/ingresso/index.jsx';
+import AtividadeExtra from './pages/unidade/index.jsx';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 export default function Router(){
@@ -23,6 +26,9 @@ export default function Router(){
         <Route path='/textos' element={<Textos />} />
         <Route path='/calculadora' element={<Calculador />} />
         <Route path="*" element={<NotFound />} />
+        <Route path='/chamadaapi' element={<ChamadaApi />} />
+        <Route path='/ingresso' element={<Ingresso />} />
+        <Route path='/extra' element={<AtividadeExtra />} />
       </Routes>
 </BrowserRouter>
     );

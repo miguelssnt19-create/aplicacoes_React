@@ -1,0 +1,19 @@
+
+.pag-ingre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .meias{
+        display: flex;
+        align-items: center;
+        margin: 10px 0;
+    }
+
+
+}
+
+
+
+
+
